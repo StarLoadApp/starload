@@ -34,7 +34,7 @@ header{
 }
 
 .menu{
-    width: 85%;
+    width: 85%; /*antes tava 80%, mudei no dia 25/05*/
     text-align: right;
 }
 
