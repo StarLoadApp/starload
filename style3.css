@@ -199,23 +199,23 @@ section.tutorial{
 
 section.aviso{
     background-color: #e3d7ea;
-    padding: 20px 0;
+    padding: 30px 0; /*20px*/
 }
 
 .aviso-single{
-    width: 31%;
-    margin-right: 2%;
+    width: 33%; /*31%*/
+    margin-right: 0%; /*2%*/
     text-align: center;
 }
 
 .aviso-single h2{
     color: #231050;
-    font-size: 20px;
+    font-size: 22px; /*20px*/
 }
 
 .aviso-single p{
     color: #0f0d31;
-    font-size: 16px;
+    font-size: 18px; /*16px*/
 
 }
 
