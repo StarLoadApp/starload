@@ -3,7 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ffffff;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #a18cd3;    
+    border-radius: 20px;     
+    border: 2px solid #ffffff;  
+  }
+
 
 .center{
     max-width: 1100px;
@@ -61,6 +77,11 @@ header{
 
 .menu .btn-menu:hover{
     background-color: #322a5c;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -100,7 +121,7 @@ section.main{
     -webkit-text-stroke-color: #200053;
 }
 
-.main_cta button{
+.main_cta a{
     background-color: #57469e;
     display: inline-block;
     padding: 8px 30px;
@@ -112,14 +133,20 @@ section.main{
     cursor: pointer;
 }
 
-.main_cta button a{
+.main_cta  a{
     text-decoration: none;
     color: white;
     transition: 0.5s;
 }
 
-.main_cta button a:hover{
+.main_cta  a:hover{
     color: #9179ff;
+    background-color: #322a5c;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .diferenciais{
