@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
 }
 
+
 body::-webkit-scrollbar {
     width: 12px;               
   }
@@ -39,12 +40,13 @@ header{
     border-bottom: 1px solid #57469e;
 }
 
+
 .logo{
     color: #57469e;
 }
 
 .logo h2{
-    color: #57469e;
+    color: #57469e;;
     font-weight: bold;
     font-size: 24px;
 }
