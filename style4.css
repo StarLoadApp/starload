@@ -260,6 +260,29 @@ section.aviso{
 
 }
 
+section.social{
+    background-color: #57469e;
+    padding: 20px 0; /*20px*/
+}
+
+.social-single{
+    width: 100%; /*31%*/
+    margin-right: 0%; /*2%*/
+    text-align: center;
+}
+
+.social-single a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px; /*16px*/
+    float: center;
+}
+
+.social-single a:hover{
+    color: #e6c1ff;
+    transition: 0.5s;
+}
+
 .menu-items{
     position: absolute;
     left: 0;
@@ -446,6 +469,10 @@ section.contato{
     }
 
     .contato-content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .social-single{
         width: 100%;
         margin-bottom: 20px;
     }
