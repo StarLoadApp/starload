@@ -1,6 +1,6 @@
 # starloadapp.github.io
 
-Já precisou instalar vídeos/shorts do Youtube e não sabe como? Eu posso te ajudar!
+Já precisou baixar vídeos/shorts do Youtube e não sabe como? Eu posso te ajudar!
 Com o StarLoad você pode baixar seus vídeos favoritos apenas pelo URL do vídeo!!
 Incrível, não? 
 
