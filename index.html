@@ -1,142 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="style4.css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>StarLoad</title>
 </head>
+
 <body>
-    <header>
-        <div class="center">
-             <div class="logo">
-                <a href="index.html"><h2>StarLoad</h2></a>
-             </div><!--logo-->
-             <div class="menu">
-                <a href="#tutorial">
-                    Tutorial
-                </a>
-                 <a href="#contato">
-                     Contato
-                 </a>
-                 <a class="btn-menu" href="StarLoad.zip">
-                    Download
-                </a>
-             </div><!--menu-->
-             <div class="menu-mobile">
-                <i class="fa-solid fa-bars menu-mobile-icon"></i>
-                <div class="menu-items">
-                    <a href="#tutorial">Tutorial</a>
-                    <a href="#contato">Contato</a>
-                    <a class="btn-menu-mobile" href="StarLoad.zip">Download</a>
-                </div>
-             </div>
-        </div><!--center-->
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo"><img src="img/starload.png" alt=""></h1>
+            <ul id="navbar-items">
+                <li><a href="#product">Tutorial</a></li>
+                <li><a href="#testimonials">Contato</a></li>
+                <li  class=""><a href="StarLoad.zip">Dowloand</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Use o StarLoad!</h2>
+            <p>Baixe vídeos do Youtube apenas pelo link!</span></p>
+            <br>
+            <a href="StarLoad.zip" class="btn">Download</a>
+        </div>
     </header>
 
-    <section class="main">
-        <div class="center">
-            <div class="main_cta">
-                <h2>Use o StarLoad!</h2>
-                <p>Baixe vídeos do Youtube apenas pelo link!</p>
-                <a href="StarLoad.zip">> Download</a>
-            </div><!--main_cta-->
-            <div class="diferenciais">
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-computer"></i>
-                    <h2>Como usar?</h2>
-                    <p>Basta colocar o url do vídeo/short do Youtube, selecionar onde o arquivo será baixado e clicar em 'Download'. Para entender melhor clique em 'Tutorial'.</p>
-                </div><!--diferencial-single-->
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-file-arrow-down"></i>
-                    <h2>Como baixar?</h2>
-                    <p>Para baixar o aplicativo <b>(apenas para computadores)</b>, basta clicar no botão 'Download' acima e o processo de download do arquivo .rar será iniciado!</p>
-                </div><!--diferencial-single-->
-                <div class="diferencial-single">
-                    <i class="fa-brands fa-python"></i>
-                    <h2>Quem criou?</h2>
-                    <p>O aplicativo foi programado, na linguagem Python 3.8, por Felipe Maronezi. Tendo sido utilizado as bibliotecas PySimpleGUI e PyTube.</p>
-                </div><!--diferencial-single-->
-            </div><!--diferenciais-->
+    <!-- About -->
 
-        </div><!--center-->
-    </section><!--main-->
+    <section id="features">
 
-    <section class="tutorial" id="tutorial">
-        <div class="center">
-            <div class="chamada-sobre">
-                <h2>Tutorial</h2>
-                <p>Aqui você entenderá o passo a passo de como usar o aplicativo!<br><b>(APLICATIVO APENAS PARA COMPUTADOR)</b></p>
-            </div><!--chamada-sobre-->
-            <div class="conteudo-sobre">
-                <p>Para usar o StarLoad é simples. A interface do aplicativo é intuitiva e minimalista, faciltiando a compreensão do usuário de forma a poder realizar a conversão rapidamente. É importante ressaltar que só funciona como vídeos ou shorts do Youtube, logo, nada de vídeos do Instagram, Facebook ou outros. Sendo assim, basta seguir tais passos e aproveitar!<br>
-                <span><i class="fa-solid fa-angles-right"></i> 1. Colocar o url do vídeo na área que se pede;<br></span> 
-                <span><i class="fa-solid fa-angles-right"></i> 2. Clicar em 'Browse' e escolher onde o arquivo será salvo;<br></span> 
-                <span><i class="fa-solid fa-angles-right"></i> 3. Clicar em 'Download' e aguardar a tela de confirmação;<br></span> 
-                <span><i class="fa-solid fa-angles-right"></i> 4. Aproveite! :)</span> <br>
-                </p>
-            </div><!--conteudo-sobre-->
-        </div><!--center-->
-    </section><!--tutorial-->
-
-    <section class="aviso">
-        <div class="center">
-            <div class="aviso-single">
-                <h2>Seus Dados?</h2>
-                <p>NÃO PEGAMOS NENHUM</p>
+        <div id="features-container">
+            <div class="feature">
+                <i class="fa-solid fa-computer fa-3x"></i>
+                <span class="feature-title">Como usar?</span>
+                <p>Basta colocar o url do vídeo/short do Youtube, selecionar onde o arquivo será baixado e clicar em 'Download'. Para entender melhor clique em 'Tutorial'.</a> </p>
             </div>
-            <div class="aviso-single">
-                <h2>Seu Dinheiro?</h2>
-                <p>NÃO QUEREMOS</p>
+            <div class="feature">
+                <i class="fa-solid fa-file-arrow-down fa-3x"></i>
+                <span class="feature-title">Como baixar?</span>
+                <p>Para baixar o aplicativo (apenas para computadores), basta clicar no botão 'Download' acima e o processo de download do arquivo .rar será iniciado!</p>
             </div>
-            <div class="aviso-single">
-                <h2>Sua Privacidade?</h2>
-                <p>ESTÁ PROTEGIDA</p>
+            <div class="feature">
+                <i class="fa-brands fa-python fa-3x"></i>
+                <span class="feature-title">Quem criou?</span>
+                <p>O aplicativo foi programado, na linguagem Python 3.8, por Felipe Maronezi. Tendo sido utilizado as bibliotecas PySimpleGUI e PyTube.</p>
             </div>
         </div>
     </section>
 
-    <section class="contato" id="contato">
-        <div class="center">
-           <!--<img class="contato-img" src="eu3.png">-->
-            <div class="contato-content">
-                <h2>Contato</h2>
-                <div class="contato-sobre"> <p>Caso queira entrar em contato comigo, leia o texto abaixo! <br> <b>(NÃO MANDEM EMAILS DESNECESSÁRIOS, POR FAVOR)</b> </p></div>
-                <p>O site e o aplicativo <b>StarLoad</b> foi criado por Felipe Maronezi, um programador amador que tem como foco se especializar em Python, HTML, CSS e JavaScript, por enquanto. Por isso, erros e melhorias podem vir a acontecer, tanto no site, quanto no aplicativo. Assim, caso queiram enviar um feedback sobre o projeto, ou ainda uma mensagem de apoio, peço que usem este email: <br><a class="btn-contato" href="mailto: starload.app@gmail.com"><b>> Enviar Email</b></a></p>
-                <p>Além disso, sigam nossa página no Twitter e fiquem de olho em possíveis atualizações: <a href="https://twitter.com/starloadapp" target="_blank"> <b>@starloadapp</b></a></p>
-            </div>
-        </div><!--center-->
-    </section><!--contato-->
+    <section id="product">
+        <div class="headline">Tutorial</div>
+        <div id="product-container">
+            <img src="/img/.png" alt="" class="iphone-x">
+            <div id="items">
+                <div class="item">
 
-    <section class="social">
-        <div class="center">
-            <div class="social-single">
-                <p><a href="https://twitter.com/felipemaronezi" target="blank">@felipemaronezi</a></p>
+                    <p>Para usar o StarLoad é simples. A interface do aplicativo é intuitiva e minimalista, faciltiando a compreensão do usuário de forma a poder realizar a conversão rapidamente. É importante ressaltar que só funciona como vídeos ou shorts do Youtube, logo, nada de vídeos do Instagram, Facebook ou outros. Sendo assim, basta seguir tais passos e aproveitar!
+                    </p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-angle-right fa-2x color-primary"></i>
+                    <p>&nbsp;&nbsp;Colocar o url do vídeo na área que se pede;</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-angle-right fa-2x color-primary"></i>
+                    <p>&nbsp;&nbsp;Clicar em 'Browse' e escolher onde o arquivo será salvo; </p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-angle-right  fa-2x"></i>
+                    <p>&nbsp;&nbsp;Clicar em 'Download' e aguardar a tela de confirmação;</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-solid fa-angle-right  fa-2x"></i>
+                    <p>&nbsp;&nbsp;Aproveite! :)</p>
+                </div>
             </div>
         </div>
     </section>
 
+    <div id="testimonials">
+        <div class="headline">Contato</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <img src="/img/fm.png" alt="" class="testimonial-image">
+                <br>
+                <p>O site e o aplicativo StarLoad foi criado por Felipe Maronezi, um programador amador que tem como foco se especializar em Python, HTML, CSS e JavaScript, por enquanto. Por isso, erros e melhorias podem vir a acontecer, tanto no site, quanto no aplicativo. Assim, caso queiram enviar um feedback sobre o projeto, ou ainda uma mensagem de apoio, peço que usem este email:
 
+                    <br> <br>
+                    Caso queira me enviar um e-mail para contato profissional, apenas <a href="mailto:dev.felipemaronezi@gmail.com" style="color:#6640ff; text-decoration: underline;"> clique aqui</a>.</p>
+            </div>
+        </div>
+    </div>
+    </div>
 
+ 
+
+    <footer id="footer">
+        <p> <a href="https://linktr.ee/felipemaronezi" target="_blank">@felipemaronezi</a></p>
+        <p>Made by Felipe Maronezi</p>
+    </footer>
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9a66129654.js" crossorigin="anonymous"></script>
-    <script>
 
-        var el = document.querySelector('.menu-mobile-icon');
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-        el.addEventListener('click', ()=> {
-            var menuItems = document.querySelector('.menu-items');
-            if(menuItems.classList.contains('show')){
-                menuItems.classList.add('hide');
-               menuItems.classList.remove('show');
-            }else{
-               menuItems.classList.add('show');
-               menuItems.classList.remove('hide');
-            }
-        });
-
-    </script>
+    <!-- Our JS file -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
